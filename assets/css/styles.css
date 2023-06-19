@@ -513,6 +513,13 @@ a {
 
 /*.........Floating button..........*/
 
+@media screen and (min-width: 692px) {
+  .menu-item, .menu-open-button {
+    margin-left: -20px !important;
+    top: 5px;
+  }
+}
+
 .menu {
   filter: url("#shadowed-goo");
 }
@@ -557,8 +564,8 @@ a {
   width: auto;
   height: 150px;
   box-sizing: border-box;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 8px;
+  font-weight: 800;
   text-align: left;
 }
 
